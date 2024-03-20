@@ -1,0 +1,14 @@
+{
+  "address": {
+    "firstname": "Nikitha",
+    "lastname": "Bhaskaran",
+    "company": "Paper Street Soap Co.",
+    "address1": "Jayanagar, Bangalore",
+    "address2": "4th T Block 19th Cross",
+    "city": "Qethesda",
+    "phone": "3488545445002",
+    "zipcode": "90210",
+    "state_name": "CA",
+    "country_iso": "US"
+  }
+}
