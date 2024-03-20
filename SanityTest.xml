@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="pk_spreecom.Create_Address_Delete_Address_Through_UI"/>
+      <class name="pk_spreecom.Create_Address_Update_Address"/>
+      <class name="pk_spreecom.Create_Address_Using_Create_Token"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
