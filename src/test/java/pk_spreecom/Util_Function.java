@@ -2,12 +2,10 @@ package pk_spreecom;
 
 import java.io.FileReader;
 import java.io.IOException;
-
+import org.testng.Assert;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.testng.Assert;
-
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;

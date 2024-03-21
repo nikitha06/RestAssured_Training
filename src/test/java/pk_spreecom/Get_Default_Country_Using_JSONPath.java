@@ -15,7 +15,7 @@ public class Get_Default_Country_Using_JSONPath{
 	  RestAssured.baseURI = "https://demo.spreecommerce.org";
 	  RequestSpecification httpRequest = RestAssured.given();
 	  //Response response = httpRequest.get();
-	  Response response = httpRequest.request(Method.GET,"/api/v2/storefront/countries/ind");
+	  Response response = httpRequest.request(Method.GET,"/api/v2/storefront/countries/default");
 	  
 		// Now let us print the body of the message to see what response
 	  // we have received from the server
@@ -27,7 +27,7 @@ public class Get_Default_Country_Using_JSONPath{
 		
 		String iso_act = js.get("data.attributes.iso_name");
 		System.out.println(iso_act);
-		Assert.assertEquals(iso_act, "INDIA");
+		Assert.assertEquals(iso_act, "UNITED STATES");
 	 
   }
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pk_graphql_tests.GraphQL_pokemon">
+      <class name="pk_spreecom.Get_Default_Country_Using_JSONPath">
         <methods>
-          <include name="getAllFilmsTest"/>
+          <include name="get_Default_Country_JSONPath"/>
         </methods>
-      </class> <!-- pk_graphql_tests.GraphQL_pokemon -->
+      </class> <!-- pk_spreecom.Get_Default_Country_Using_JSONPath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
